@@ -156,7 +156,7 @@ const Home = () => {
 
 const styles = StyleSheet.create({
   headerContainer: {
-    backgroundColor: '##5146ec',
+    backgroundColor: '#5146ec',
     paddingTop: Platform.OS === 'ios' ? 44 : 0,
   },
   headerTitle: {

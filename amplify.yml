@@ -24,6 +24,7 @@ frontend:
     build:
       commands:
         - 'expo build:web'
+        - 'expo build:android'
   artifacts:
     baseDirectory: web-build
     files:
