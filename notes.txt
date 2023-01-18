@@ -1,0 +1,1 @@
+amplify pull --sandboxId 77021ae2-fe01-4882-9b2d-b072bc41ed9b
