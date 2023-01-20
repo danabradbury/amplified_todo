@@ -24,6 +24,8 @@ frontend:
     build:
       commands:
         - 'expo build:web'
+        - 'export CI=true'
+        - 'export EXPO_TOKEN=OyYaY3YDU-9yZSMC7NGS-QsAhVFy6BXjWrdaiBNE'
         - 'eas build -p android'
   artifacts:
     baseDirectory: web-build
