@@ -10,10 +10,7 @@
     },
     "preview": {
       "distribution": "internal",
-      "channel": "preview",
-      "env": {
-        "EXPO_TOKEN": "OyYaY3YDU-9yZSMC7NGS-QsAhVFy6BXjWrdaiBNE"
-      }
+      "channel": "preview"
     },
     "production": {
       "channel": "production"
