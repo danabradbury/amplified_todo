@@ -23,7 +23,6 @@ frontend:
           fi
     build:
       commands:
-        - 'expo build:web'
         - 'export CI=true'
         - 'export EXPO_TOKEN=A7iHVU_9izYxn5qUx-dY8fwU3gUIP7ZTtZSuk2r9'
         - 'eas build -p android --non-interactive'
